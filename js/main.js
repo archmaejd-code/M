@@ -63,7 +63,7 @@ function initReveal() {
 }
 
 /* ---------- shared fixed-stage slider ---------- */
-function createStage({ stage, img, caption, counter, slides, onChange }) {
+function createStage({ stage, img, caption, counter, slides, onChange, autoplay }) {
   let index = 0;
 
   /* preload every slide so swapping is instant */
@@ -90,16 +90,28 @@ function createStage({ stage, img, caption, counter, slides, onChange }) {
     img.classList.add("is-fading");
     setTimeout(() => {
       render();
-      img.classList.remove("is-fading");
-    }, 120);
+      requestAnimationFrame(() => img.classList.remove("is-fading"));
+    }, 320);
   };
 
-  $(".arrow-prev", stage).addEventListener("click", () => show(index - 1));
-  $(".arrow-next", stage).addEventListener("click", () => show(index + 1));
+  let timer = null;
+  const stop = () => { if (timer) clearInterval(timer); timer = null; };
+  const start = () => {
+    if (!autoplay || slides.length < 2) return;
+    stop();
+    timer = setInterval(() => show(index + 1), autoplay);
+  };
+  const step = (n) => { show(n); start(); };
+
+  $(".arrow-prev", stage).addEventListener("click", () => step(index - 1));
+  $(".arrow-next", stage).addEventListener("click", () => step(index + 1));
   document.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowLeft") show(index - 1);
-    if (e.key === "ArrowRight") show(index + 1);
+    if (e.key === "ArrowLeft") step(index - 1);
+    if (e.key === "ArrowRight") step(index + 1);
   });
+  stage.addEventListener("mouseenter", stop);
+  stage.addEventListener("mouseleave", start);
+  start();
   if (counter) counter.textContent = "01 / " + pad2(slides.length);
 }
 
@@ -125,6 +137,7 @@ function initHome() {
     caption: $("#home-title"),
     counter: $("#home-counter"),
     slides,
+    autoplay: 3000,
   });
 
   /* marquee: duplicate images for a seamless loop */
@@ -215,11 +228,32 @@ function initProject() {
   initReveal();
 }
 
+/* ---------- back to top ---------- */
+function initToTop() {
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "to-top";
+  btn.setAttribute("aria-label", "Back to top");
+  btn.innerHTML =
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 14 12 8 18 14"/></svg>';
+  document.body.appendChild(btn);
+  btn.addEventListener("click", () =>
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  );
+  const onScroll = () => {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    btn.classList.toggle("is-visible", max > 0 && window.scrollY > max * 0.45);
+  };
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   initMenu();
   initHome();
   initPortfolio();
   initProject();
   initReveal();
+  initToTop();
   if (window.applyI18n) window.applyI18n();
 });
