@@ -33,7 +33,7 @@ window.PROJECTS = [
     year: "2025",
     role: "Architectural Designer / Facade Design / 3D Visualization",
     firm: "MAJED ABDULLAH",
-    images: ["images/project-01/cover.jpg", "images/project-01/01.jpg",  "images/project-01/02.jpg", "images/project-01/03.jpg", "images/project-01/04.jpg", "images/project-01/05.jpg", "images/project-01/06.jpg", "images/project-01/07.jpg", "images/project-01/08.jpg", "images/project-01/09.jpg"],
+    images: ["images/project-01/01.jpg",  "images/project-01/02.jpg", "images/project-01/03.jpg", "images/project-01/04.jpg", "images/project-01/05.jpg", "images/project-01/06.jpg", "images/project-01/07.jpg", "images/project-01/08.jpg", "images/project-01/09.jpg"],
     description:
       "The residence begins with a carefully layered composition shaped around a central family garden. Set on a 600-square-meter site with an eastern frontage in Riyadh, the project organizes its spaces around this inner landscape, allowing the garden to become the visual and social heart of the home. Circulation follows a clear sequence between hospitality, family, and private domains, creating gradual transitions rather than rigid separations. Openings are positioned to frame the garden throughout the house, bringing natural light deep into the living spaces while maintaining a continuous connection between interior and landscape. A dedicated basement introduces an independent private domain for the son, extending the layered organization of the residence below ground. The project balances openness and privacy through its spatial hierarchy, creating a home where family interaction, individual autonomy, and the landscape coexist as one continuous experience.",
   },
