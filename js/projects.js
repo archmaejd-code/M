@@ -45,7 +45,7 @@ window.PROJECTS = [
     year: "2026",
     role: "Facade Design / 3D Visualization",
     firm: "MAJED ABDULLAH",
-    images: ["images/project-02/02.jpg", "images/project-02/03.jpg", "images/project-02/04.jpg", "images/project-02/05.jpg", "images/project-02/06.jpg", "images/project-02/07.jpg", "images/project-02/08.jpg", "images/project-02/09.jpg", "images/project-02/10.jpg"],
+    images: ["images/project-02/cover.jpg", "images/project-02/03.jpg", "images/project-02/04.jpg", "images/project-02/05.jpg", "images/project-02/06.jpg", "images/project-02/07.jpg", "images/project-02/08.jpg", "images/project-02/09.jpg", "images/project-02/10.jpg"],
     description:
       "The project begins as a private retreat for dining and gathering, set on a 1,400-square-meter site in Al-Falah, Riyadh. Rather than treating the building as a single enclosed volume, the design unfolds across a sequence of shaded interiors, open terraces, and landscaped outdoor spaces, creating a gradual transition between architecture and the surrounding landscape. The main entrance establishes a clear arrival sequence from the front, leading guests into the heart of the retreat, while a separate rear entrance connects directly to the adjacent family villa. This discreet separation allows hospitality and family movement to coexist without overlap. Covered parking, outdoor seating, dining areas, and supporting service spaces are arranged as parts of one continuous experience. The composition is intentionally open and flexible, allowing the retreat to shift between intimate family gatherings and larger social occasions while maintaining a strong connection to the outdoors.",
   },
