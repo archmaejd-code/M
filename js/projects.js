@@ -45,7 +45,7 @@ window.PROJECTS = [
     year: "2026",
     role: "Facade Design / 3D Visualization",
     firm: "MAJED ABDULLAH",
-    images: ["images/project-01/cover.jpg",  "images/project-02/02.jpg", "images/project-02/03.jpg", "images/project-02/04.jpg", "images/project-02/05.jpg", "images/project-02/06.jpg", "images/project-02/07.jpg", "images/project-02/08.jpg", "images/project-02/09.jpg", "images/project-02/10.jpg"],
+    images: ["images/project-02/cover.jpg",  "images/project-02/02.jpg", "images/project-02/03.jpg", "images/project-02/04.jpg", "images/project-02/05.jpg", "images/project-02/06.jpg", "images/project-02/07.jpg", "images/project-02/08.jpg", "images/project-02/09.jpg", "images/project-02/10.jpg"],
     description:
       "The project begins as a private retreat for dining and gathering, set on a 1,400-square-meter site in Al-Falah, Riyadh. Rather than treating the building as a single enclosed volume, the design unfolds across a sequence of shaded interiors, open terraces, and landscaped outdoor spaces, creating a gradual transition between architecture and the surrounding landscape. The main entrance establishes a clear arrival sequence from the front, leading guests into the heart of the retreat, while a separate rear entrance connects directly to the adjacent family villa. This discreet separation allows hospitality and family movement to coexist without overlap. Covered parking, outdoor seating, dining areas, and supporting service spaces are arranged as parts of one continuous experience. The composition is intentionally open and flexible, allowing the retreat to shift between intimate family gatherings and larger social occasions while maintaining a strong connection to the outdoors.",
   },
@@ -57,7 +57,7 @@ window.PROJECTS = [
     year: "2025",
     role: "Architectural Designer / Facade Design / 3D Visualization",
     firm: "MAJED ABDULLAH",
-    images: ["images/project-01/cover.jpg",  "images/project-03/02.jpg", "images/project-03/03.jpg", "images/project-03/04.jpg", "images/project-03/05.jpg", "images/project-03/06.jpg", "images/project-03/07.jpg", "images/project-03/08.jpg", "images/project-03/09.jpg", "images/project-03/10.jpg"],
+    images: ["images/project-03/cover.jpg",  "images/project-03/02.jpg", "images/project-03/03.jpg", "images/project-03/04.jpg", "images/project-03/05.jpg", "images/project-03/06.jpg", "images/project-03/07.jpg", "images/project-03/08.jpg", "images/project-03/09.jpg", "images/project-03/10.jpg"],
     description:
       "The residence begins as a composition of layered volumes, shaped by the gradual transition between hospitality, family life, and private retreat. Set on a 600-square-meter site in Riyadh, the ground floor forms the social threshold of the home, where spaces for welcoming guests and everyday family life are carefully woven together while maintaining their distinct identities. The house then unfolds vertically. Below, the basement is carved into the ground to accommodate three vehicles and a recreational space, creating a quieter extension of the home away from the formal levels. Above, the first floor becomes a private sequence of six bedroom suites, supported by a dedicated laundry space and organized around the rhythms of daily family life. At the highest level, the master suite occupies a more secluded position, accompanied by a family lounge that opens toward the rooftop. Here, the architecture steps away from the enclosed interior and reconnects with the sky, creating an intimate setting for gathering, retreat, and relaxation. The vertical layering of the house establishes a gradual journey from the public realm to the most private spaces, allowing each level to carry its own character while remaining part of a continuous residential experience.",
   },
@@ -69,7 +69,7 @@ window.PROJECTS = [
     year: "2024",
     role: "Facade Design / 3D Visualization",
     firm: "MAJED ABDULLAH",
-    images: "images/project-01/cover.jpg",  ["images/project-04/01.jpg", "images/project-04/02.jpg", "images/project-04/03.jpg", "images/project-04/04.jpg", "images/project-04/05.jpg", "images/project-04/06.jpg"],
+    images: ["images/project-04/cover.jpg", "images/project-04/02.jpg", "images/project-04/03.jpg", "images/project-04/04.jpg", "images/project-04/05.jpg", "images/project-04/06.jpg"],
     description:
       "A contemporary interpretation of Najdi architecture, expressed through a monolithic sand-toned volume that balances solidity with refined simplicity. A recessed arched portal recalls the traditional Najdi gateway, while a patterned brick screen reinterprets the mashrabiya, filtering light and ventilation while preserving privacy. Deep overhangs, shaded verandas, rounded corners, and warm natural materials reinforce the principles of shade, privacy, and earthy materiality, creating a modern façade rooted in its regional identity.",
   },
@@ -81,7 +81,7 @@ window.PROJECTS = [
     year: "2025",
     role: "Architectural Designer / Facade Design / 3D Visualization",
     firm: "MAJED ABDULLAH",
-    images: ["images/project-01/cover.jpg",  "images/project-05/02.jpg", "images/project-05/03.jpg", "images/project-05/04.jpg", "images/project-05/05.jpg", "images/project-05/06.jpg", "images/project-05/07.jpg", "images/project-05/08.jpg", "images/project-05/09.jpg", "images/project-05/10.jpg"],
+    images: ["images/project-05/cover.jpg",  "images/project-05/02.jpg", "images/project-05/03.jpg", "images/project-05/04.jpg", "images/project-05/05.jpg", "images/project-05/06.jpg", "images/project-05/07.jpg", "images/project-05/08.jpg", "images/project-05/09.jpg", "images/project-05/10.jpg"],
     description:
       "Conceived as a contemporary urban residential composition, the project transforms a compact site in Al Olaya into four distinct yet cohesive homes. Each residence is organized through a clear vertical hierarchy, separating private, family, hospitality, and service functions while maintaining a continuous sense of spatial connection. The design prioritizes privacy, flexibility, and efficient circulation, with each level offering a distinct residential experience—from intimate sleeping spaces to generous family and guest areas, complemented by outdoor extensions. Independent basements provide additional autonomy and adaptability, while the overall composition carefully balances individual privacy with the shared urban context. The result is a refined townhouse development that responds to the density of Al Olaya through clear organization, layered privacy, and contemporary residential character.",
   },
